@@ -36,10 +36,13 @@ RestrictedPython==3.6.0
 pysaml2==2.4.0
 pycrypto==2.6.1
 funcy==1.7.1
-raven==5.27.1
+raven==6.0.0
 semver==2.2.1
 xlsxwriter==0.9.3
 pystache==0.5.4
 parsedatetime==2.1
 cryptography==1.4
 simplejson==3.10.0
+# Uncomment the requirement for ldap3 if using ldap.
+# It is not included by default because of the GPL license conflict.
+# ldap3==2.2.4
